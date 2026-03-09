@@ -1,0 +1,10 @@
+
+# Python
+.env
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db

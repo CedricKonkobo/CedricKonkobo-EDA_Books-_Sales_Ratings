@@ -1,18 +1,5 @@
 # 📚 Book Sales & Ratings — Exploratory Data Analysis
 
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557c?style=for-the-badge)
-![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-4c72b0?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Completed-2ea44f?style=for-the-badge)
-
-**Une analyse exploratoire complète du marché du livre — ventes, évaluations et tendances éditoriales.**
-
-</div>
-
 ---
 
 ## 🗂️ Table des matières
@@ -70,7 +57,7 @@ Le dataset contient des informations détaillées sur des milliers de livres :
 │
 ├── 📓 Book_Sale_EDA.ipynb        # Notebook principal — EDA complet
 │
-├── 📁 visualisations/
+├── 📁 output/
 │   ├── distribution_notes_livres.png
 │   ├── heatmap_correlation.png
 │   ├── livres_par_annee.png
@@ -90,16 +77,16 @@ Le dataset contient des informations détaillées sur des milliers de livres :
 
 <table>
   <tr>
-    <td align="center"><b>Distribution des notes</b><br><img src="visualisations/distribution_notes_livres.png" width="380"/></td>
-    <td align="center"><b>Heatmap de corrélation</b><br><img src="visualisations/heatmap_correlation.png" width="380"/></td>
+    <td align="center"><b>Distribution des notes</b><br><img src="output/distribution_notes_livres.png" width="380"/></td>
+    <td align="center"><b>Heatmap de corrélation</b><br><img src="output/heatmap_correlation.png" width="380"/></td>
   </tr>
   <tr>
-    <td align="center"><b>Publications par année</b><br><img src="visualisations/livres_par_annee.png" width="380"/></td>
-    <td align="center"><b>Revenus par genre</b><br><img src="visualisations/revenus_par_genre.png" width="380"/></td>
+    <td align="center"><b>Publications par année</b><br><img src="output/livres_par_annee.png" width="380"/></td>
+    <td align="center"><b>Revenus par genre</b><br><img src="output/revenus_par_genre.png" width="380"/></td>
   </tr>
   <tr>
-    <td align="center"><b>Top 10 auteurs</b><br><img src="visualisations/top_auteurs_unites_vendues.png" width="380"/></td>
-    <td align="center"><b>Prix vs Unités vendues</b><br><img src="visualisations/prix_vs_unites_vendues.png" width="380"/></td>
+    <td align="center"><b>Top 10 auteurs</b><br><img src="output/top_auteurs_unites_vendues.png" width="380"/></td>
+    <td align="center"><b>Prix vs Unités vendues</b><br><img src="output/prix_vs_unites_vendues.png" width="380"/></td>
   </tr>
 </table>
 
@@ -170,14 +157,11 @@ jupyter notebook Book_Sale_EDA.ipynb
 
 ---
 
-## 👤 Auteur
+## 👤 Auteur : Cedric Konkobo
 
 <div align="center">
 
-**Projet réalisé dans le cadre d'un EDA académique complet**
-
-[![GitHub](https://img.shields.io/badge/GitHub-Profil-181717?style=for-the-badge&logo=github)](https://github.com/votre-username)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profil-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/votre-profil)
+**Projet réalisé dans le cadre d'apprentissage personnel**
 
 *N'hésitez pas à ⭐ le repo si ce projet vous a été utile !*
 

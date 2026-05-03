@@ -75,20 +75,7 @@ book-sales-eda/
 
 ## Key Visualizations
 
-<table>
-  <tr>
-    <td align="center"><b>Ratings Distribution</b><br><img src="output/book_ratings_distribution.png" width="380"/></td>
-    <td align="center"><b>Correlation Heatmap</b><br><img src="output/correlation_heatmap.png" width="380"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Publications per Year</b><br><img src="output/books_per_year.png" width="380"/></td>
-    <td align="center"><b>Revenue by Genre</b><br><img src="output/revenue_by_genre.png" width="380"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Top 10 Authors</b><br><img src="output/top_authors_units_sold.png" width="380"/></td>
-    <td align="center"><b>Price vs Units Sold</b><br><img src="output/price_vs_units_sold.png" width="380"/></td>
-  </tr>
-</table>
+<table> <tr> <td align="center"><b>Distribution des notes</b><br><img src="output/distribution_notes_livres.png" width="380"/></td> <td align="center"><b>Heatmap de corrélation</b><br><img src="output/heatmap_correlation.png" width="380"/></td> </tr> <tr> <td align="center"><b>Publications par année</b><br><img src="output/livres_par_annee.png" width="380"/></td> <td align="center"><b>Revenus par genre</b><br><img src="output/revenus_par_genre.png" width="380"/></td> </tr> <tr> <td align="center"><b>Top 10 auteurs</b><br><img src="output/top_auteurs_unites_vendues.png" width="380"/></td> <td align="center"><b>Prix vs Unités vendues</b><br><img src="output/prix_vs_unites_vendues.png" width="380"/></td> </tr> </table>
 
 ---
 

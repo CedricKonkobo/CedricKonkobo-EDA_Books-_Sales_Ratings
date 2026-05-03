@@ -27,7 +27,7 @@ This project is an **Exploratory Data Analysis (EDA)** conducted on a book sales
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 > **Source:** [Kaggle — Books Sales and Ratings](https://www.kaggle.com/)
 
@@ -73,7 +73,7 @@ book-sales-eda/
 
 ---
 
-## 📊 Key Visualizations
+## Key Visualizations
 
 <table>
   <tr>
@@ -111,7 +111,7 @@ The number of annual publications has grown **exponentially** since the 2000s, p
 
 ---
 
-## ⚙️ Installation & Usage
+## Installation & Usage
 
 ### 1. Clone the repository
 
@@ -157,7 +157,7 @@ jupyter notebook Book_Sale_EDA.ipynb
 
 ---
 
-## 👤 Author: Cedric Konkobo
+## Author: Cedric Konkobo
 
 <div align="center">
 

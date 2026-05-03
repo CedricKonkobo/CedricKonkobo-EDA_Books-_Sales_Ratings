@@ -1,8 +1,8 @@
-# 📚 Book Sales & Ratings Exploratory Data Analysis
+# Book Sales & Ratings Exploratory Data Analysis
 
 ---
 
-## 🗂️ Table of Contents
+## Table of Contents
 
 - [Project Overview](#-project-overview)
 - [Dataset](#-dataset)
@@ -15,15 +15,15 @@
 
 ---
 
-## 🔍 Project Overview
+## Project Overview
 
 This project is an **Exploratory Data Analysis (EDA)** conducted on a book sales dataset. The goal is to understand publishing market dynamics through three main perspectives:
 
 | Axis | Description |
 |------|------------|
-| 📈 **Market Analysis** | Identify top-performing genres, authors, and time periods |
-| 🖊️ **Author Performance** | Evaluate the impact of an author’s reputation on sales and ratings |
-| 🔎 **Trend Analysis** | Detect evolving reading preferences and publishing patterns |
+| **Market Analysis** | Identify top-performing genres, authors, and time periods |
+|  **Author Performance** | Evaluate the impact of an author’s reputation on sales and ratings |
+| **Trend Analysis** | Detect evolving reading preferences and publishing patterns |
 
 ---
 
@@ -50,14 +50,14 @@ The dataset contains detailed information about thousands of books:
 
 ---
 
-## 🗃️ Project Structure
+##  Project Structure
 
 ```
-📁 book-sales-eda/
+book-sales-eda/
 │
-├── 📓 Book_Sale_EDA.ipynb        # Main notebook — complete EDA
+├── Book_Sale_EDA.ipynb        # Main notebook — complete EDA
 │
-├── 📁 output/
+├── output/
 │   ├── book_ratings_distribution.png
 │   ├── correlation_heatmap.png
 │   ├── books_per_year.png
@@ -92,21 +92,21 @@ The dataset contains detailed information about thousands of books:
 
 ---
 
-## 💡 Main Insights
+## Main Insights
 
-### 🏆 Genre fiction dominates the market  
+### Genre fiction dominates the market  
 Genre fiction alone generates over **1.6 million in gross sales**, more than 7× higher than nonfiction (second place). Inventory and marketing strategies should prioritize this segment.
 
-### 💰 Low prices = high volume  
+### Low prices = high volume  
 Books priced below **€10** account for the vast majority of high sales volumes (30,000–60,000 units). Above €15, sales drop sharply. Affordable pricing is a key driver of volume.
 
-### ⭐ Average rating does not predict sales  
+###  Average rating does not predict sales  
 Despite nearly zero correlation between `Book_average_rating` and `units sold`, most books cluster around **4.0/5**. Visibility and author reputation are more influential than perceived quality alone.
 
-### 📖 Series build loyalty and drive sales  
+### Series build loyalty and drive sales  
 The top 10 authors are dominated by creators of **long-running series** (Stephen King, Janet Evanovich, Jim Butcher, Robert Jordan). Series-based engagement is a structural competitive advantage in the publishing industry.
 
-### 📅 Publishing boom since the 2000s  
+### Publishing boom since the 2000s  
 The number of annual publications has grown **exponentially** since the 2000s, peaking around 2010–2015. This increased competition makes data-driven decision-making more critical than ever for publishers.
 
 ---

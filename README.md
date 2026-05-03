@@ -1,126 +1,126 @@
-# 📚 Book Sales & Ratings — Exploratory Data Analysis
+# 📚 Book Sales & Ratings Exploratory Data Analysis
 
 ---
 
-## 🗂️ Table des matières
+## 🗂️ Table of Contents
 
-- [Aperçu du projet](#-aperçu-du-projet)
+- [Project Overview](#-project-overview)
 - [Dataset](#-dataset)
-- [Structure du projet](#-structure-du-projet)
-- [Visualisations clés](#-visualisations-clés)
-- [Principaux insights](#-principaux-insights)
-- [Installation & Utilisation](#-installation--utilisation)
-- [Stack technique](#-stack-technique)
-- [Auteur](#-auteur)
+- [Project Structure](#-project-structure)
+- [Key Visualizations](#-key-visualizations)
+- [Main Insights](#-main-insights)
+- [Installation & Usage](#-installation--usage)
+- [Tech Stack](#-tech-stack)
+- [Author](#-author)
 
 ---
 
-## 🔍 Aperçu du projet
+## 🔍 Project Overview
 
-Ce projet est une **analyse exploratoire de données (EDA)** appliquée à un dataset de ventes de livres. L'objectif est de comprendre les dynamiques du marché éditorial à travers trois axes principaux :
+This project is an **Exploratory Data Analysis (EDA)** conducted on a book sales dataset. The goal is to understand publishing market dynamics through three main perspectives:
 
-| Axe | Description |
-|-----|-------------|
-| 📈 **Analyse de marché** | Identifier les genres, auteurs et périodes les plus performants commercialement |
-| 🖊️ **Performance des auteurs** | Évaluer l'impact de la réputation d'un auteur sur ses ventes et ses notes |
-| 🔎 **Analyse des tendances** | Détecter l'évolution des préférences de lecture et des habitudes éditoriales |
+| Axis | Description |
+|------|------------|
+| 📈 **Market Analysis** | Identify top-performing genres, authors, and time periods |
+| 🖊️ **Author Performance** | Evaluate the impact of an author’s reputation on sales and ratings |
+| 🔎 **Trend Analysis** | Detect evolving reading preferences and publishing patterns |
 
 ---
 
 ## 📦 Dataset
 
-> **Source :** [Kaggle — Books Sales and Ratings](https://www.kaggle.com/)
+> **Source:** [Kaggle — Books Sales and Ratings](https://www.kaggle.com/)
 
-Le dataset contient des informations détaillées sur des milliers de livres :
+The dataset contains detailed information about thousands of books:
 
-| Colonne | Description |
-|---------|-------------|
-| `Publishing Year` | Année de publication |
-| `Book Name` | Titre du livre |
-| `Author` | Nom de l'auteur |
-| `Author_Rating` | Niveau de l'auteur (Novice / Intermediate / Famous / Excellent) |
-| `Book_average_rating` | Note moyenne attribuée par les lecteurs |
-| `Book_ratings_count` | Nombre d'évaluations reçues |
-| `genre` | Genre littéraire (fiction, nonfiction, children, genre fiction) |
-| `gross sales` | Ventes brutes totales |
-| `publisher revenue` | Revenus de l'éditeur |
-| `sale price` | Prix de vente |
-| `sales rank` | Classement des ventes |
-| `units sold` | Nombre d'exemplaires vendus |
+| Column | Description |
+|--------|------------|
+| `Publishing Year` | Year of publication |
+| `Book Name` | Title of the book |
+| `Author` | Author’s name |
+| `Author_Rating` | Author level (Novice / Intermediate / Famous / Excellent) |
+| `Book_average_rating` | Average rating given by readers |
+| `Book_ratings_count` | Number of ratings received |
+| `genre` | Literary genre (fiction, nonfiction, children, genre fiction) |
+| `gross sales` | Total gross sales |
+| `publisher revenue` | Publisher revenue |
+| `sale price` | Selling price |
+| `sales rank` | Sales ranking |
+| `units sold` | Number of copies sold |
 
 ---
 
-## 🗃️ Structure du projet
+## 🗃️ Project Structure
 
 ```
 📁 book-sales-eda/
 │
-├── 📓 Book_Sale_EDA.ipynb        # Notebook principal — EDA complet
+├── 📓 Book_Sale_EDA.ipynb        # Main notebook — complete EDA
 │
 ├── 📁 output/
-│   ├── distribution_notes_livres.png
-│   ├── heatmap_correlation.png
-│   ├── livres_par_annee.png
-│   ├── nombre_avis_vs_note.png
-│   ├── note_auteur_vs_note_livre.png
-│   ├── notes_par_genre.png
-│   ├── prix_vs_unites_vendues.png
-│   ├── revenus_par_genre.png
-│   └── top_auteurs_unites_vendues.png
+│   ├── book_ratings_distribution.png
+│   ├── correlation_heatmap.png
+│   ├── books_per_year.png
+│   ├── reviews_vs_rating.png
+│   ├── author_rating_vs_book_rating.png
+│   ├── ratings_by_genre.png
+│   ├── price_vs_units_sold.png
+│   ├── revenue_by_genre.png
+│   └── top_authors_units_sold.png
 │
 └── 📄 README.md
 ```
 
 ---
 
-## 📊 Visualisations clés
+## 📊 Key Visualizations
 
 <table>
   <tr>
-    <td align="center"><b>Distribution des notes</b><br><img src="output/distribution_notes_livres.png" width="380"/></td>
-    <td align="center"><b>Heatmap de corrélation</b><br><img src="output/heatmap_correlation.png" width="380"/></td>
+    <td align="center"><b>Ratings Distribution</b><br><img src="output/book_ratings_distribution.png" width="380"/></td>
+    <td align="center"><b>Correlation Heatmap</b><br><img src="output/correlation_heatmap.png" width="380"/></td>
   </tr>
   <tr>
-    <td align="center"><b>Publications par année</b><br><img src="output/livres_par_annee.png" width="380"/></td>
-    <td align="center"><b>Revenus par genre</b><br><img src="output/revenus_par_genre.png" width="380"/></td>
+    <td align="center"><b>Publications per Year</b><br><img src="output/books_per_year.png" width="380"/></td>
+    <td align="center"><b>Revenue by Genre</b><br><img src="output/revenue_by_genre.png" width="380"/></td>
   </tr>
   <tr>
-    <td align="center"><b>Top 10 auteurs</b><br><img src="output/top_auteurs_unites_vendues.png" width="380"/></td>
-    <td align="center"><b>Prix vs Unités vendues</b><br><img src="output/prix_vs_unites_vendues.png" width="380"/></td>
+    <td align="center"><b>Top 10 Authors</b><br><img src="output/top_authors_units_sold.png" width="380"/></td>
+    <td align="center"><b>Price vs Units Sold</b><br><img src="output/price_vs_units_sold.png" width="380"/></td>
   </tr>
 </table>
 
 ---
 
-## 💡 Principaux insights
+## 💡 Main Insights
 
-### 🏆 La genre fiction domine le marché
-La genre fiction génère à elle seule plus de **1.6 million de ventes brutes**, soit plus de 7x le chiffre de la nonfiction (2ème). Les stratégies de stock et de marketing doivent prioritairement cibler ce segment.
+### 🏆 Genre fiction dominates the market  
+Genre fiction alone generates over **1.6 million in gross sales**, more than 7× higher than nonfiction (second place). Inventory and marketing strategies should prioritize this segment.
 
-### 💰 Prix bas = volumes élevés
-Les livres vendus à **moins de 10€** concentrent la quasi-totalité des gros volumes de vente (30 000–60 000 unités). Au-delà de 15€, les ventes chutent drastiquement. Une politique tarifaire accessible est un levier de volume déterminant.
+### 💰 Low prices = high volume  
+Books priced below **€10** account for the vast majority of high sales volumes (30,000–60,000 units). Above €15, sales drop sharply. Affordable pricing is a key driver of volume.
 
-### ⭐ La note moyenne ne prédit pas les ventes
-Malgré une corrélation quasi nulle entre `Book_average_rating` et `units sold`, les livres sont massivement concentrés autour de **4.0/5**. La visibilité et la réputation de l'auteur sont des facteurs plus déterminants que la seule qualité perçue.
+### ⭐ Average rating does not predict sales  
+Despite nearly zero correlation between `Book_average_rating` and `units sold`, most books cluster around **4.0/5**. Visibility and author reputation are more influential than perceived quality alone.
 
-### 📖 Les séries fidélisent et vendent
-Le top 10 des auteurs est dominé par des créateurs de **longues séries** (Stephen King, Janet Evanovich, Jim Butcher, Robert Jordan). La fidélisation via les séries est un avantage concurrentiel structurel dans l'industrie du livre.
+### 📖 Series build loyalty and drive sales  
+The top 10 authors are dominated by creators of **long-running series** (Stephen King, Janet Evanovich, Jim Butcher, Robert Jordan). Series-based engagement is a structural competitive advantage in the publishing industry.
 
-### 📅 Explosion de la production depuis les années 2000
-Le nombre de publications annuelles a crû de façon **exponentielle** à partir des années 2000, avec un pic autour de 2010-2015. Cette intensification de la concurrence rend les décisions data-driven plus nécessaires que jamais pour les éditeurs.
+### 📅 Publishing boom since the 2000s  
+The number of annual publications has grown **exponentially** since the 2000s, peaking around 2010–2015. This increased competition makes data-driven decision-making more critical than ever for publishers.
 
 ---
 
-## ⚙️ Installation & Utilisation
+## ⚙️ Installation & Usage
 
-### 1. Cloner le dépôt
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/votre-username/book-sales-eda.git
+git clone https://github.com/your-username/book-sales-eda.git
 cd book-sales-eda
 ```
 
-### 2. Créer un environnement virtuel (recommandé)
+### 2. Create a virtual environment (recommended)
 
 ```bash
 python -m venv venv
@@ -128,15 +128,15 @@ source venv/bin/activate        # macOS / Linux
 venv\Scripts\activate           # Windows
 ```
 
-### 3. Installer les dépendances
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-> **Dépendances principales :** `pandas`, `numpy`, `matplotlib`, `seaborn`, `jupyter`
+> **Main dependencies:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `jupyter`
 
-### 4. Lancer le notebook
+### 4. Run the notebook
 
 ```bash
 jupyter notebook Book_Sale_EDA.ipynb
@@ -144,31 +144,31 @@ jupyter notebook Book_Sale_EDA.ipynb
 
 ---
 
-## 🛠️ Stack technique
+## 🛠️ Tech Stack
 
-| Outil | Usage |
-|-------|-------|
-| **Python 3.12** | Langage principal |
-| **Pandas** | Manipulation et nettoyage des données |
-| **NumPy** | Calculs numériques |
-| **Matplotlib** | Visualisations statiques |
-| **Seaborn** | Visualisations statistiques avancées |
-| **Jupyter Notebook** | Environnement d'analyse interactif |
+| Tool | Usage |
+|------|------|
+| **Python 3.12** | Main programming language |
+| **Pandas** | Data manipulation and cleaning |
+| **NumPy** | Numerical computations |
+| **Matplotlib** | Static visualizations |
+| **Seaborn** | Advanced statistical visualizations |
+| **Jupyter Notebook** | Interactive analysis environment |
 
 ---
 
-## 👤 Auteur : Cedric Konkobo
+## 👤 Author: Cedric Konkobo
 
 <div align="center">
 
-**Projet réalisé dans le cadre d'apprentissage personnel**
+**Project carried out as part of personal learning**
 
-*N'hésitez pas à ⭐ le repo si ce projet vous a été utile !*
+*Feel free to ⭐ the repo if you found this project useful!*
 
 </div>
 
 ---
 
 <div align="center">
-<sub>📚 Book Sales & Ratings EDA — Analyse exploratoire du marché du livre</sub>
+<sub>📚 Book Sales & Ratings EDA — Exploratory analysis of the publishing market</sub>
 </div>

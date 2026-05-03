@@ -144,7 +144,7 @@ jupyter notebook Book_Sale_EDA.ipynb
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Usage |
 |------|------|
